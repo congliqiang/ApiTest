@@ -52,8 +52,8 @@ func main() {
 			var str = ""
 			for si, sv := range v {
 				if sv != "" {
-					str += `	req.Param("` + si + `","` + sv + `")
-					`
+					str += `req.Param("` + si + `","` + sv + `")
+			`
 				}
 
 			}
@@ -64,13 +64,13 @@ func main() {
 			dataFunc += fmt.Sprintf(`func (s *MySuite) %s(c *C) {
 			req := httplib.%s("%s")
 			req.Header("%s", "%s")
-			`+str+`
+			%s
 			outPutData := handle.HandleReq(req)
 			var code = outPutData.Code
 			PmToken = outPutData.Token
 			c.Assert(code, Equals, common.SuccessCode)
 }
-`, funcName, env.Type, url, env.Addr, common.PmToken)
+`, funcName, env.Type, url, env.Addr, common.PmToken, str)
 		}
 	}
 	data["NewFunc"] = dataFunc
