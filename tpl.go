@@ -59,6 +59,9 @@ func main() {
 				if sv != "" {
 					str += `req.Param("` + si + `","` + sv + `")
 			`
+				} else {
+					str += `req.Param("` + si + `","")
+			`
 				}
 
 			}
