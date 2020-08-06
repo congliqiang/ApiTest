@@ -4,6 +4,7 @@ import (
 	"JccApiTest/go_check/handle"
 	"fmt"
 	"github.com/astaxie/beego/httplib"
+	"github.com/astaxie/beego/logs"
 	. "gopkg.in/check.v1"
 	"strconv"
 	"testing"
@@ -15,11 +16,15 @@ var a int = 1
 
 func Test(t *testing.T) { TestingT(t) }
 
-type MySuite struct{}
+type MySuite struct{
+    Logs *logs.BeeLogger
+}
 
 var _ = Suite(&MySuite{})
 
 func (s *MySuite) SetUpSuite(c *C) {
+    s.Logs = logs.NewLogger()
+	_ = s.Logs.SetLogger(logs.AdapterMultiFile, `{"filename":"logs/test.log","level":7,"separate":["emergency", "alert", "critical", "error", "warning", "notice", "info", "debug"]}`)
 	//s.TestHttpPost(c)
 	str3 := "第1次套件开始执行"
 	fmt.Println(str3)
@@ -40,6 +45,8 @@ func (s *MySuite) TearDownTest(c *C) {
 	str2 := "第" + strconv.Itoa(a) + "条用例执行完成"
 	fmt.Println(str2)
 	a = a + 1
+	logStr := c.GetTestLog()
+    s.Logs.Info(logStr)
 }
 
 {{.NewFunc}}
