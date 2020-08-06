@@ -22,3 +22,18 @@ func HandleReq(req *httplib.BeegoHTTPRequest) *common.Output {
 	}
 	return outPutData
 }
+
+type EntranceParam struct {
+	RequestUrl     string `json:"request_url" description:"请求地址"`
+	RequestDataUrl string `json:"request_data_url" description:"请求数据"`
+	Type           string `json:"type" description:"请求方式"`
+	Addr           string `json:"addr" description:"测试平台"`
+}
+
+func Entrance(path string) []EntranceParam {
+	entrance := common.ReadJson(path)
+	requestData := make([]EntranceParam, 0)
+	err := json.Unmarshal([]byte(entrance), &requestData)
+	common.CheckError(err)
+	return requestData
+}

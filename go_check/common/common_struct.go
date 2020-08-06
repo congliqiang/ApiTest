@@ -7,3 +7,8 @@ type Output struct {
 	Custom interface{} `json:"custom" description:"自定义信息"`
 	Token  string      `json:"token" description:"Token"`
 }
+
+type RequestJsonStruct struct {
+	RequestUrl  string            `json:"request_url"`
+	RequestData map[string]string `json:"request_data"`
+}
