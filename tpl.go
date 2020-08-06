@@ -50,7 +50,12 @@ func main() {
 				req.Header("Token", common.PmToken)
 			}
 			var str = ""
+			var checkErrorMsg = ""
 			for si, sv := range v {
+				if si == "response" {
+					checkErrorMsg = sv
+					continue
+				}
 				if sv != "" {
 					str += `req.Param("` + si + `","` + sv + `")
 			`
@@ -66,11 +71,11 @@ func main() {
 			req.Header("%s", "%s")
 			%s
 			outPutData := handle.HandleReq(req)
-			var code = outPutData.Code
+			var msg = outPutData.Msg
 			PmToken = outPutData.Token
-			c.Assert(code, Equals, common.SuccessCode)
+			c.Assert(msg, Equals, "%s")
 }
-`, funcName, env.Type, url, env.Addr, common.PmToken, str)
+`, funcName, env.Type, url, env.Addr, common.PmToken, str, checkErrorMsg)
 		}
 	}
 	data["NewFunc"] = dataFunc

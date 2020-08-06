@@ -1,9 +1,7 @@
 package check_test
 
 import (
-	"JccApiTest/go_check/common"
 	"JccApiTest/go_check/handle"
-	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego/httplib"
 	. "gopkg.in/check.v1"
