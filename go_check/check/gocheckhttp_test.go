@@ -65,7 +65,10 @@ func (s *MySuite) TestHttpRequest(c *C) {
 			default:
 				panic("数据错误")
 			}
-			if env.Addr == "Pm" {
+			switch env.Addr {
+			case common.PmAddr:
+				req.Header("PmToken", PmToken)
+			case common.CsAddr:
 				req.Header("PmToken", PmToken)
 			}
 			for si, sv := range v {
