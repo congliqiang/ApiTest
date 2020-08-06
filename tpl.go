@@ -62,14 +62,14 @@ func main() {
 			funcName += strconv.Itoa(i)
 			funcName += strconv.Itoa(time.Now().Nanosecond())
 			dataFunc += fmt.Sprintf(`func (s *MySuite) %s(c *C) {
-						req := httplib.%s("%s")
-						req.Header("%s", "%s")
-						`+str+`
-						outPutData := handle.HandleReq(req)
-						var code = outPutData.Code
-						PmToken = outPutData.Token
-						c.Assert(code, Equals, common.SuccessCode)
-					}
+			req := httplib.%s("%s")
+			req.Header("%s", "%s")
+			`+str+`
+			outPutData := handle.HandleReq(req)
+			var code = outPutData.Code
+			PmToken = outPutData.Token
+			c.Assert(code, Equals, common.SuccessCode)
+}
 `, funcName, env.Type, url, env.Addr, common.PmToken)
 		}
 	}
