@@ -82,20 +82,42 @@ func (s *MySuite) TestHttpRequest(c *C) {
 	}
 }
 
-//func (s *MySuite) TestHttpGet(c *C) {
-//	getUrl := fmt.Sprintf("%v/pm_member/select_members", common.PmTestUrl)
-//	readData := common.ReadJson("../json/select_member.json")
-//	requestData := make([]map[string]string, 0)
-//	err := json.Unmarshal([]byte(readData), &requestData)
-//	common.CheckError(err)
-//	for _, v := range requestData {
-//		req := httplib.Get(getUrl)
-//		for si, sv := range v {
-//			req.Param(si, sv)
-//		}
-//		req.Header("PmToken", PmToken)
-//		outPutData := handle.HandleReq(req)
-//		var code = outPutData.Code
-//		c.Assert(code, Equals, common.SuccessCode) //模拟失败的断言
-//	}
-//}
+func (s *MySuite) TestHttpGet(c *C) {
+	url := fmt.Sprintf("%v/%s", common.PmTestUrl, env.RequestUrl)
+	req := httplib.Get(url)
+	for si, sv := range v {
+		req.Param(si, sv)
+	}
+	req.Header("PmToken", PmToken)
+	outPutData := handle.HandleReq(req)
+	var code = outPutData.Code
+	c.Assert(code, Equals, common.SuccessCode) //模拟失败的断言
+
+}
+
+func (s *MySuite) TestHttpDemo(c *C) {
+	url := fmt.Sprintf("%v/%s", common.PmTestUrl, env.RequestUrl)
+	var req *httplib.BeegoHTTPRequest
+	switch env.Type {
+	case "POST":
+		req = httplib.Post(url)
+	case "GET":
+		req = httplib.Get(url)
+	default:
+		panic("数据错误")
+	}
+	switch env.Addr {
+	case common.PmAddr:
+		req.Header("PmToken", PmToken)
+	case common.CsAddr:
+		req.Header("PmToken", PmToken)
+	}
+	for si, sv := range v {
+		req.Param(si, sv)
+	}
+	outPutData := handle.HandleReq(req)
+	var code = outPutData.Code
+	PmToken = outPutData.Token
+	c.Assert(code, Equals, common.SuccessCode) //模拟成功的断言
+}
+
