@@ -34,6 +34,9 @@ func main() {
 		fmt.Println(requestData)
 		for i, v := range requestData {
 			url := fmt.Sprintf("%v/%s", common.PmTestUrl, env.RequestUrl)
+			if env.Addr == common.AgentAddr {
+				url = fmt.Sprintf("%v/%s", common.AgentUrl, env.RequestUrl)
+			}
 			var req *httplib.BeegoHTTPRequest
 			switch env.Type {
 			case "Post":
@@ -48,6 +51,8 @@ func main() {
 				req.Header("PmToken", common.PmToken)
 			case common.CsAddr:
 				req.Header("Token", common.PmToken)
+			case common.AgentAddr:
+				req.Header("jcc-path", common.Jcc_Path)
 			}
 			var str = ""
 			var checkErrorMsg = ""
@@ -74,8 +79,7 @@ func main() {
 			req.Header("%s", "%s")
 			%s
 			outPutData := handle.HandleReq(req)
-			var msg = outPutData.Msg
-			PmToken = outPutData.Token
+			var msg = outPutData["msg"]
 			c.Assert(msg, Equals, "%s")
 }
 `, funcName, env.Type, url, env.Addr, common.PmToken, str, checkErrorMsg)
