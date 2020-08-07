@@ -1,0 +1,15 @@
+[
+  {
+    "select_type": "1",
+    "select_value": "",
+    "cate_three": "",
+    "cate_two": "",
+    "cate_one": "",
+    "merch_id": "2",
+    "page_no": "1",
+    "order": "",
+    "order_type": "",
+    "page_size": "20",
+    "status": ""
+  }
+]

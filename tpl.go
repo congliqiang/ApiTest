@@ -47,7 +47,7 @@ func main() {
 			case common.PmAddr:
 				req.Header("PmToken", common.PmToken)
 			case common.CsAddr:
-				req.Header("Token", common.PmToken)
+				req.Header("Token", common.Token)
 			}
 			var str = ""
 			var checkErrorMsg = ""

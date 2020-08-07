@@ -46,7 +46,9 @@ func (s *MySuite) TearDownTest(c *C) {
 	fmt.Println(str2)
 	a = a + 1
 	logStr := c.GetTestLog()
-    s.Logs.Info(logStr)
+	if logStr != "" {
+	 s.Logs.Info(logStr)
+	}
 }
 
 {{.NewFunc}}
