@@ -2,19 +2,19 @@
   {
     "request_url": "manager/pm_user/user_login",
     "request_data_url": "login.json",
-    "type" : "Post",
+    "type": "Post",
     "addr": "PmToken"
   },
   {
     "request_url": "manager/pm_member/select_members",
     "request_data_url": "select_member.json",
-    "type" : "Get",
+    "type": "Get",
     "addr": "PmToken"
   },
   {
     "request_url": "store/goods/get_store_goods",
     "request_data_url": "get_store_goods.json",
-    "type" : "Get",
+    "type": "Post",
     "addr": "Token"
   }
 ]

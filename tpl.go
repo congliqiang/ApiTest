@@ -6,7 +6,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/astaxie/beego/httplib"
 	"os"
 	"strconv"
 	"text/template"
@@ -34,20 +33,12 @@ func main() {
 		fmt.Println(requestData)
 		for i, v := range requestData {
 			url := fmt.Sprintf("%v/%s", common.PmTestUrl, env.RequestUrl)
-			var req *httplib.BeegoHTTPRequest
-			switch env.Type {
-			case "Post":
-				req = httplib.Post(url)
-			case "Get":
-				req = httplib.Get(url)
-			default:
-				panic("数据错误")
-			}
+			var token = ""
 			switch env.Addr {
 			case common.PmAddr:
-				req.Header("PmToken", common.PmToken)
+				token = common.PmToken
 			case common.CsAddr:
-				req.Header("Token", common.Token)
+				token = common.Token
 			}
 			var str = ""
 			var checkErrorMsg = ""
@@ -78,7 +69,7 @@ func main() {
 			PmToken = outPutData.Token
 			c.Assert(msg, Equals, "%s")
 }
-`, funcName, env.Type, url, env.Addr, common.PmToken, str, checkErrorMsg)
+`, funcName, env.Type, url, env.Addr, token, str, checkErrorMsg)
 		}
 	}
 	data["NewFunc"] = dataFunc
