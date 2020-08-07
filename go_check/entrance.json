@@ -16,5 +16,17 @@
     "request_data_url": "get_store_goods.json",
     "type": "Post",
     "addr": "Token"
+  },
+  {
+    "request_url": "store/shop/shop_get_category",
+    "request_data_url": "shop_get_category.json",
+    "type": "Post",
+    "addr": "Token"
+  },
+  {
+    "request_url": "store/goods/goods_info",
+    "request_data_url": "goods_info.json",
+    "type": "Post",
+    "addr": "Token"
   }
 ]
