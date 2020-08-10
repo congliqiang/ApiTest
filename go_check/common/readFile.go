@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 )
 
 func Read(path string) string {
@@ -39,6 +40,9 @@ func ReadJson(filePath string) (result string) {
 	buf := bufio.NewReader(file)
 	for {
 		s, err := buf.ReadString('\n')
+		if strings.HasPrefix(s, "//") {
+			continue
+		}
 		result += s
 		if err != nil {
 			if err == io.EOF {
