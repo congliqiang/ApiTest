@@ -47,14 +47,20 @@ func main() {
 					checkErrorMsg = sv
 					continue
 				}
+				//	if sv != "" {
+				//		str += `req.Param("` + si + `","` + sv + `")
+				//`
+				//	} else {
+				//		str += `req.Param("` + si + `","")
+				//`
+				//	}
 				if sv != "" {
-					str += `req.Param("` + si + `","` + sv + `")
+					str += "req.Param(`" + si + "`,`" + sv + "`" + `)
 			`
 				} else {
 					str += `req.Param("` + si + `","")
 			`
 				}
-
 			}
 			var funcName = "TestHttpRequest"
 			funcName += strconv.Itoa(eni)

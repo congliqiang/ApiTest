@@ -1,7 +1,7 @@
 package common
 
 const (
-	PmTestUrl   = "https://cs.jicanchu.net"
+	PmTestUrl   = "https://cs.www.net"
 	PmAddr      = "PmToken" // 城市电商平台端
 	CsAddr      = "Token"   // 城市电商商户端
 	SuccessCode = "100000"
