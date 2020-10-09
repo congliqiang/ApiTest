@@ -7,13 +7,13 @@ import (
 	"github.com/astaxie/beego/httplib"
 )
 
-func HandleReq(req *httplib.BeegoHTTPRequest) *common.Output {
+func HandleReq(req *httplib.BeegoHTTPRequest) map[string]interface{} {
 	str, err := req.String()
 	if err != nil {
 		panic(err)
 	}
 
-	outPutData := new(common.Output)
+	var outPutData map[string]interface{}
 	if err := json.Unmarshal([]byte(string(str)), &outPutData); err == nil {
 		fmt.Println(outPutData)
 	} else {

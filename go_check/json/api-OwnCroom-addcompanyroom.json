@@ -1,0 +1,51 @@
+[{
+	"name": "[randName]",
+	"comanyid": "22",
+	"people": "123",
+	"tel": "1301234123",
+	"address": "213",
+	"token": "ee87974e-7841-40d5-9094-1b86f392faa3",
+	"type": "store",
+	"response": "请正确填写联系方式",
+	"task_id" : "377"
+}, {
+	"name": "[randName]",
+	"comanyid": "22",
+	"people": "",
+	"tel": "13012341234",
+	"address": "213",
+	"token": "ee87974e-7841-40d5-9094-1b86f392faa3",
+	"type": "store",
+	"response": "公司仓库负责人必须填写",
+	"task_id" : "377"
+}, {
+	"name": "[randName]",
+	"comanyid": "22",
+	"people": "123",
+	"tel": "13012341234",
+	"address": "",
+	"token": "ee87974e-7841-40d5-9094-1b86f392faa3",
+	"type": "store",
+	"response": "公司仓库地址必须填写",
+	"task_id" : "377"
+}, {
+	"name": "[randName]",
+	"comanyid": "22",
+	"people": "123",
+	"tel": "13012341234",
+	"address": "123",
+	"token": "ee87974e-7841-40d5-9094-1b86f392faa3",
+	"type": "store",
+	"response": "添加公司门店成功",
+	"task_id" : "377"
+}, {
+	"name": "测试默认",
+	"comanyid": "22",
+	"people": "123",
+	"tel": "13012341234",
+	"address": "123",
+	"token": "ee87974e-7841-40d5-9094-1b86f392faa3",
+	"type": "store",
+	"response": "公司门店名称已存在",
+	"task_id" : "377"
+}]
