@@ -1,32 +1,1028 @@
 [
-  {
-    "request_url": "manager/pm_user/user_login",
-    "request_data_url": "login.json",
-    "type": "Post",
-    "addr": "PmToken"
-  },
-  {
-    "request_url": "manager/pm_member/select_members",
-    "request_data_url": "select_member.json",
-    "type": "Get",
-    "addr": "PmToken"
-  },
-  {
-    "request_url": "store/goods/get_store_goods",
-    "request_data_url": "get_store_goods.json",
-    "type": "Post",
-    "addr": "Token"
-  },
-  {
-    "request_url": "store/shop/shop_get_category",
-    "request_data_url": "shop_get_category.json",
-    "type": "Post",
-    "addr": "Token"
-  },
-  {
-    "request_url": "store/goods/goods_info",
-    "request_data_url": "goods_info.json",
-    "type": "Post",
-    "addr": "Token"
-  }
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation122745243.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_shop_shop_get_category126443285.json",
+"request_url": "store/shop/shop_get_category",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_limit_time_activity_limit_activity_page_info127180180.json",
+"request_url": "store/limit_time_activity/limit_activity_page_info",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_shop_shop_get_category141253866.json",
+"request_url": "store/shop/shop_get_category",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_edit_renovation127560690.json",
+"request_url": "store/renovation/edit_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation726584976.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login40828276.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user_power131305798.json",
+"request_url": "manager/pm_admin/find_user_power",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list572059014.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user573533489.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login357445517.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user_power430963453.json",
+"request_url": "manager/pm_admin/find_user_power",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list9672758.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user13581323.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list717542826.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login196601687.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user_power272093768.json",
+"request_url": "manager/pm_admin/find_user_power",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list708208712.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user710876098.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list135954926.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list388553190.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login327112523.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user_power404480420.json",
+"request_url": "manager/pm_admin/find_user_power",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list857246942.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user861200276.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list292216814.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_platform_merch_merch_account_list709299939.json",
+"request_url": "manager/platform_merch/merch_account_list",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_delete_member_tag237578257.json",
+"request_url": "store/member/delete_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag313472155.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag679992258.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag700457358.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_merch_members704592870.json",
+"request_url": "store/member/select_merch_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag172545335.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_get_one_member200544072.json",
+"request_url": "store/member/get_one_member",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_merch_members89312702.json",
+"request_url": "store/member/select_merch_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag114841201.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag119962476.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_user_find_account_power96771238.json",
+"request_url": "store/user/find_account_power",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_home_trend_chart109337251.json",
+"request_url": "store/home/trend_chart",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_home_count_order_month111499159.json",
+"request_url": "store/home/count_order_month",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_home_count_goods112992970.json",
+"request_url": "store/home/count_goods",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_merch_merch_info114315467.json",
+"request_url": "store/merch/merch_info",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_home_count_today127629604.json",
+"request_url": "store/home/count_today",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation957039013.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag445622452.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag39776939.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag641252149.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_merch_members646165396.json",
+"request_url": "store/member/select_merch_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag665438923.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag496467326.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_get_one_member528223034.json",
+"request_url": "store/member/get_one_member",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_delete_renovation343782318.json",
+"request_url": "store/renovation/delete_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation414711245.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_delete_renovation450859008.json",
+"request_url": "store/renovation/delete_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation489581972.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_delete_renovation419834512.json",
+"request_url": "store/renovation/delete_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation453019416.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_delete_renovation399824222.json",
+"request_url": "store/renovation/delete_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation468891810.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_delete_renovation324227305.json",
+"request_url": "store/renovation/delete_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation360230643.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_find_quickly_renovation611378747.json",
+"request_url": "store/renovation/find_quickly_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_merch_name_availability939112044.json",
+"request_url": "store/renovation/merch_name_availability",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_limit_time_activity_limit_activity_list765147835.json",
+"request_url": "store/limit_time_activity/limit_activity_list",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_shop_shop_get_category767977197.json",
+"request_url": "store/shop/shop_get_category",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_shop_shop_get_category776482379.json",
+"request_url": "store/shop/shop_get_category",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_find_coupon_renovation778250087.json",
+"request_url": "store/renovation/find_coupon_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_package_activity_activity_list778659595.json",
+"request_url": "store/package_activity/activity_list",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation788338875.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_limit_time_activity_limit_activity_page_info795216981.json",
+"request_url": "store/limit_time_activity/limit_activity_page_info",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_shop_shop_get_category801162522.json",
+"request_url": "store/shop/shop_get_category",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_add_renovation456996993.json",
+"request_url": "store/renovation/add_renovation",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_renovation_select_renovation90007286.json",
+"request_url": "store/renovation/select_renovation",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login598757697.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login632427423.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login665552893.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members697368760.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members730468356.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members765007550.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members796571469.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members828937760.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members861555796.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members895904674.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login740485045.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login783713436.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login824535925.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members861096797.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members893364323.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members932708869.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members966231318.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members1615438.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members42252273.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members82170563.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login189206466.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login220597878.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login253163423.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members284661909.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members315508846.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members346828241.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members379032130.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members413941233.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members445230420.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members476586169.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag18725372.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag27997741.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag478495550.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login632363467.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login666857170.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login700441203.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members731952854.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members764656665.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members796094728.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members827761058.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members860148804.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members891543400.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members922552180.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_choose_member_list385553775.json",
+"request_url": "store/member/choose_member_list",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_add_member_tag467184480.json",
+"request_url": "store/member/add_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag134525985.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login614806622.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login644411004.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login677390497.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members712691559.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members743192429.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members774299490.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members804575638.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members834964743.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members864910297.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members895804255.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login887018082.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login917100262.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login947615735.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members976554587.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members9231451.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members38164558.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members73089872.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members108256838.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members137892978.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members171986086.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login200491182.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login231980364.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login265709028.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members297338543.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members331418603.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members365487141.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members402104398.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members442949118.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members478391759.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members530657621.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login262446732.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login324364721.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_user_user_login379723926.json",
+"request_url": "manager/pm_user/user_login",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members433956943.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members509539330.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members557141828.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members605558911.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members671174437.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members709386556.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members776226158.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag672556709.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag57956132.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_member_tag901762364.json",
+"request_url": "manager/pm_member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "Token",
+"request_data_url": "store_member_select_member_tag482005947.json",
+"request_url": "store/member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members323256090.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user344925428.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_member_tag367823389.json",
+"request_url": "manager/pm_member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_find_members95667571.json",
+"request_url": "manager/pm_member/find_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_member_tag114427603.json",
+"request_url": "manager/pm_member/select_member_tag",
+"type": "Post"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_admin_find_user913090421.json",
+"request_url": "manager/pm_admin/find_user",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_members945841665.json",
+"request_url": "manager/pm_member/select_members",
+"type": "Get"
+},
+{
+"addr": "PmToken",
+"request_data_url": "manager_pm_member_select_member_tag970303875.json",
+"request_url": "manager/pm_member/select_member_tag",
+"type": "Post"
+}
 ]
